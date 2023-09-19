@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
@@ -16,9 +17,77 @@
             <p class="hero__text">
                 O maior evento de tecnologia começa em 10d 12h 20m 15s
             </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Laranjeiras - Serra - São Paulo
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        A partir de R$ 120,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        12/12/2022 ás 19hs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Garanta a sua Vaga!
+                </a>
+            </div>
         </div>
     </header>
 
+    <section class="event event--frontend">
+        <div data-aos="fade-right" class="container">
+            <div class="event__detail">
+                <h2 class="event__detail__title">Front-end</h2>
+                <p class="event__detail__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, debitis quam, excepturi, illo architecto ducimus assumenda doloribus tempora harum numquam eaque veniam necessitatibus sed. Ratione rerum id odit iste velit!
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="frontend">
+        </div>
+    </section>
+
+    <section class="event event--image-left event--ui-ux">
+        <div data-aos="fade-left" class="container">
+            <div class="event__detail">
+                <h2 class="event__detail__title">UX/UI</h2>
+                <p class="event__detail__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, debitis quam, excepturi, illo architecto ducimus assumenda doloribus tempora harum numquam eaque veniam necessitatibus sed. Ratione rerum id odit iste velit!
+                </p>
+            </div>
+            <img class="event__image" src="./images/ui-ux.png" alt="frontend">
+        </div>
+    </section>
+
+    <section class="event event--data-science">
+        <div class="container" data-aos="fade-right">
+            <div class="event__detail">
+                <h2 class="event__detail__title">Data Science</h2>
+                <p class="event__detail__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, debitis quam, excepturi, illo architecto ducimus assumenda doloribus tempora harum numquam eaque veniam necessitatibus sed. Ratione rerum id odit iste velit!
+                </p>
+            </div>
+            <img class="event__image" src="./images/data.png" alt="frontend">
+        </div>
+    </section>
+
+    <section class="event event--image-left event--backend">
+        <div data-aos="fade-left" class="container">
+            <div class="event__detail">
+                <h2 class="event__detail__title">Back-end</h2>
+                <p class="event__detail__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, debitis quam, excepturi, illo architecto ducimus assumenda doloribus tempora harum numquam eaque veniam necessitatibus sed. Ratione rerum id odit iste velit!
+                </p>
+            </div>
+            <img class="event__image" src="./images/backend.png" alt="frontend">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
